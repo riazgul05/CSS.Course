@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title> Object-Fit </title>
+        <style>
+         body{
+            font-family: Arial, Helvetica;
+         }
+
+         .container{
+            width: 70%;
+            margin: 0 auto;
+         }
+         .clearfix{
+            clear: both;
+         }
+         .box{
+            width: 32%;
+            border: 2px solid red;
+            float: left;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-right: 2%;
+            margin-bottom: 13px;
+         }
+         .box img{
+            width: 100%;
+         object-fit: cover;
+         object-position: 15px 30px;
+
+         }
+         .last{
+            margin-right: 0;
+         }
+
+         @media screen and (max-width:950px){
+            .box{
+                width: 48%;
+            }
+         }
+
+         @media screen and (max-width:800px){
+            .box{
+                width: 100%;
+            }
+         }
+        </style>
+    </head>
+    <body>
+        <h1> Yahoo baba : CSS Object-Fit </h1>
+        <div class="container">
+            <div class="box">
+                <img src="image/blog-1.jpg" alt="" height="210px">
+                <p>Lorem ipsum, dolor sit ignissimos vaboruma laboriosam id nam Vel, nihil? Neque explicabo unde ratione reprehenderit! the most importa</p>
+            </div>
+
+            <div class="box">
+                <img src="image/picture 1.png" alt="" height="225px">
+                <p>Lorem ipsum, dolor Assuga a rerum! laudiumgdriosam idghfjgj hhkhjhmkk nam!</p>
+            </div>
+
+            <div class="box last">
+                <img src="image/download.jfif" alt="">
+                <p>Lorem ipsum, dolor sit amet Loremopp cctetur adipisicing elit. Vel, nihil? Neque explicabo unde ratione reprehenderit! the most important</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </body>
+</html>

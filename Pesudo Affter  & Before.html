@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>  CSS  Pesudo Element Selectors Placenolder </title>
+        <style>
+         body{font: 19px/25px arial; padding: 10px 0 0 20px;}
+         h1{font-size: 28px; margin-bottom: 35px;}
+         ::placeholder{
+            color: red;
+            font-size: 18px;
+         }
+         p{
+            margin: 200px;
+            font-size: 37px;
+         }
+         p:hover::before{
+            content: "Hello";
+            background: red;
+            color: white;
+         }
+
+         p:hover::after{
+            content: "World";
+            background: green;
+            color: white;
+         }
+
+         
+         
+        </style>
+    </head>
+    <body>
+        <h1> Yahoo baba : CSS Pesudo ::Affter & ::Before </h1>
+        
+        <p>Lorem ipsum dolor sit amet.</p>
+        
+       <!--<ul id="list">
+            <li>The dolor sit amet consectetur adipisicing</li>
+            <li>Lorem ipsum, dolor sit amet consectetur</li>
+            <li>The dolor sit amet consectetur adipisicing</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing.></li>
+         </ul>-->
+    
+        </body>
+</html>

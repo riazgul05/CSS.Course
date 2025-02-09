@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <title>Basic Layout</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica;
+                background-color: slategrey;
+                margin: 0;
+                padding: 0;
+            }
+            #wrapper{
+                margin: 0 auto;
+                background: white;
+                border: px solid black;
+                width: 1000px;
+            }
+            #header{
+                background: crimson;
+                height: 90px;
+                color: white;
+            }
+           #header h1{
+           padding: 30px 0 0 20px;
+           }
+            
+            #menu{
+                background-color: lightsalmon;
+              
+            }
+            #menu li{
+                display: inline-block;
+                padding: 10px;
+            }
+            #menu ul{
+                margin: 0;
+                padding: 0;
+            }
+            #menu li a{
+                text-decoration: none;
+                padding: 15px;
+                color: #000;
+            }
+            #menu li a:hover{
+                background-color: crimson;
+                color: white;
+            }
+            #content{
+                width: 800px;
+                float: left;
+                min-height: 470px;
+                padding: 15px;
+                box-sizing: border-box;
+            }
+            #sidebar{
+                width: 200px;
+                float: right;
+                background: lightblue;
+                min-height: 470px;
+               
+            }
+            #sidebar a{
+                text-decoration: none;
+                color: #000;
+               
+            }
+          
+            #footer{
+                clear: both;
+                background-color: lightsalmon;
+                padding: 10px;
+                text-align: right;
+            }
+            
+            @media screen and (max-width:1020px){
+                #wrapper{
+                    width: 800px;
+                } 
+                #content{
+                    width: 80%;
+                }
+                #sidebar{
+                    width: 18%;
+                }         
+            }
+
+            @media screen and (max-width:810px){
+                #wrapper{
+                    width: 500px;
+                } 
+                #content{
+                    width: 65%;
+                }
+                #sidebar{
+                    width: 34%;
+                }
+                #header h1{
+                    padding: 30px 0 0 0;
+                    text-align: center;
+                }
+            }
+
+            @media screen and (max-width:510px){
+                #wrapper{
+                    width: 480px;
+                } 
+                #content{
+                    width: 100%;
+                    float: none;
+                }
+                #sidebar{
+                    width: 100%;
+                    float: none;
+                }
+             
+            }
+
+                
+           
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1>Website Name</h1>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <h2>Design Basic Layout</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi eius deserunt eveniet quis in dolorem labore reiciendis perferendis, necessitatibus repellendus, doloremque voluptatibus! Repellat nostrum id nesciunt dolore natus, nam qui dignissimos eum impedit dicta maiores, consequatur et itaque. Voluptatem laborum dolor recusandae totam quis veniam cupiditate eveniet facilis accusantium maiores. Accusantium molestiae delectus nihil eius, beatae ullam nulla non, quia ipsa necessitatibus quae odit maxime? Amet aperiam quisquam nihil quam at ut quia facere consequuntur iure reiciendis commodi, corrupti neque animi ipsa! Eum minima ipsa deleniti totam! Dolorum quas alias ad similique voluptatum laudantium ut minima modi commodi sequi</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi eius deserunt eveniet quis in dolorem labore reiciendis perferendis, necessitatibus repellendus, doloremque voluptatibus! Repellat nostrum id nesciunt dolore natus, nam qui dignissimos eum impedit dicta maiores, consequatur et itaque. Voluptatem laborum dolor recusandae totam quis veniam cupiditate eveniet facilis accusantium maiores. Accusantium molestiae delectus nihil eius, beatae ullam nulla non, quia ipsa necessitatibus quae odit maxime? Amet aperiam quisquam nihil quam at ut quia facere consequuntur iure reiciendis commodi, corrupti neque animi ipsa! Eum minima ipsa deleniti totam! Dolorum quas alias ad similique voluptatum laudantium ut minima modi commodi sequi</p>
+            </div>
+            <div id="sidebar">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="footer">
+                Yahoobaba@copyright 2024.
+            </div>
+        </div>
+    </body>
+</html>

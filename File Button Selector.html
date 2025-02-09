@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> File Button Selector </title>
+        <style>
+            body{
+                font-family: arial;
+            }
+            input[type='file']::-webkit-file-upload-button{
+                background-color: rgb(162, 216, 216);
+                border: 1px solid rgb(6, 236, 236);
+                border-radius: 5px;
+                padding: 4px 6px;
+            }
+
+            input[type='file']::-webkit-file-upload-button:hover{
+                background-color:rgb(240, 192, 121) ;
+                transition: all 1s;
+                border: 1px solid rgb(236, 144, 6);
+            }
+        </style>
+      
+    </head>
+    <body>
+        <input type="file" id="fileafload">
+    </body>
+</html>

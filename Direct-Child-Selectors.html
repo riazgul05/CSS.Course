@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title> Direct-Child-Selectors </title>
+        <style>
+         body{
+            font-family: Arial, Helvetica;
+         }
+
+         #box1{
+            border: 2px solid black;
+            padding: 10px;
+         }
+         #box2{
+            border: 2px solid red;
+            padding: 10px;
+         }
+         #list li{
+            color: green;
+         }
+         #list > li{
+            color: red;
+         }
+         #box1 > p{
+            color: blue;
+         }
+
+
+
+        </style>
+    </head>
+    <body>
+        <h1> Yahoo baba : CSS Direct-Child-Selectors </h1>
+        <ul id="list">
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+            </ul>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+        </ul>
+        <div id="box1">
+            <p>Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nam tempora est excepturi ut atque pariatur dolores perferendis minima error!ipsum dolor, sit amet consectetur adipisicing elit. Odio velit obcaecati voluptates. Pariatur facilis architecto quo ipsum quos eligendi deserunt.</p>
+            
+            <div id="box2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor atque consequatur culpa architecto beatae suscipit error nihil, odio alias laboriosam! quibusdam quae perspiciatis accusamus vero, culpa corrupti fugit ipsum tempore eius hic recusandae fugiat fuga inventore.</p>
+             </div>
+           </div>
+        </div>
+    </body>
+</html>

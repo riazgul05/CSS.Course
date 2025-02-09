@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title> Border-Image </title>
+        <style>
+         body{
+            font-family: Arial, Helvetica;
+            margin-left: 50px;
+         }
+         #box{
+            width: 350px;
+            height: 350px;
+            border: 40px solid black;
+            background-color: purple;
+            padding: 10px;
+            float: left;
+            margin: 40px;
+            border-image-source: url(image/download.png);
+            border-image-slice: 17 ;
+            border-image-repeat: repeat;
+            border-image-width: 18px;
+            border-image-outset: 20px;
+         }
+
+         #boxs{
+            width: 350px;
+            height: 350px;
+            border: 40px solid black;
+            background-color: purple;
+            padding: 10px;
+            float: right;
+            margin: 40px;
+         
+         
+           
+            /*border-image-source: url(image/download.png);
+            border-image-slice: 17 ;
+            border-image-repeat: repeat;
+            border-image-width: 18px;
+            border-image-outset: 20px;*/
+
+           border-image: linear-gradient(to left, red,yellow,blue) 12;
+
+           
+         }
+         
+        </style>
+    </head>
+    <body>
+        <h1 style="margin-bottom: 30px;"> Yahoo baba : CSS Border-Image  </h1>
+        <div id="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, aspernatur, quisquam accusamus ad id enim dolorem ratione iste suscipit, harum praesentium laudantium eos necessitatibus minus! Dignissimos, voluptas repellendus dolor atque beatae odit quod modi id tenetur et corporis. Atque exercitationem eaque, non nihil incidunt quia voluptate dolorem. Eveniet quibusdam minima et omnis repellendus, cum, aliquid aspernatur odio nobis mollitia consequatur laboriosam quam maxime tenetur, sapiente doloribus totam unde? Eum assumenda dignissimos obcaecati eos beatae asperiores perferendis quo suscipit, laborum atque et unde quaerat qui, optio, libero cupiditate. Natus saepe eaque, vel consectetur pariatur amet dicta, omnis, similique rerum officiis neque.
+        </div> 
+
+        <div id="boxs">
+            Lorem uptas Atque exercitationem eaque, non nihil incidunt quia voluptate dolorem. Eveniet quibusdam minima et omnis repellendus, cum, aliquid aspernatur odio nobis mollitia consequatur laboriosam quam maxime tenetur, sapiente doloribus totam unde? Eum assumenda dignissimos obcaecati eos beatae asperiores perferendis quo suscipit, laborum atque et unde quaerat qui, optio, libero cupiditate. Natus saepe eaque, vel consectetur pariatur amet dicta, omnis, similique rerum officiis neque.
+        </div> 
+    </body>
+</html>

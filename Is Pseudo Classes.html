@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> :Is Pseudo Classes </title>
+        <style>
+           /*#test1 :is(h1,h2,h3){
+            font-family: arial;
+            color: red;
+           }*/
+
+           :is(#test1,#test2) h1,p{
+            font-family: arial;
+            color: red;
+           
+           }
+
+           :is(#test1,#test2) p:hover{
+            font-family: arial;
+            color: green;
+           font-weight: bold;
+           
+           }
+        </style>
+      
+    </head>
+    <body>
+       <div id="test1">
+        <h1>Section One</h1>
+        <h2>Sub Heading</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis laboriosam distinctio commodi sit at vero necessitatibus. Numquam ut fugiat necessitatibus nulla doloremque similique. Laboriosam, debitis consequuntur consequatur quia, quam cum eos earum iste eum rerum nulla temporibus hic veniam tempore accusamus quas distinctio harum id esse. Nulla nobis repellendus iusto!</p>
+        <h3>Sub Heading 2</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, veniam.</p>
+       </div>
+       <hr>
+       <div id="test2">
+       <h1>Section Two</h1>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque laborum, inventore consequatur distinctio possimus illum delectus repellat enim voluptate pariatur, a veritatis ratione praesentium officiis nesciunt officia, labore deserunt quaerat consequuntur voluptatum cumque. Unde deleniti ab nemo obcaecati, vitae at aliquid. Natus reprehenderit illo dolores assumenda nemo exercitationem, sunt ad.</p>
+    </div>
+    </body>
+</html>

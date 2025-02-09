@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>  CSS  Pesudo Element Selectors Placenolder </title>
+        <style>
+        body{font: 19px/25px arial; padding: 10px 0 0 20px;}
+        h1{font-size: 28px; margin-bottom: 35px;}
+        ::placeholder{
+            color: red;
+            font-size: 18px;
+         }
+         
+        </style>
+    </head>
+    <body>
+        <h1> Yahoo baba : CSS Pesudo Element Selectors Placenolder </h1>
+        <form action="" style="margin-left: 40px;">
+            <label> First Name : </label><input type="text" placeholder="Enter Your Name" required>
+            <br><br>
+
+            <label> Last Name : </label><input type="text" placeholder="Last name" value="" >
+            <br><br>
+
+            <label> Your Age : </label><input type="number" placeholder="15" min="10" max="20">
+            <br><br>
+
+            <label> Your-Email-Id : </label><input type="email" placeholder="enter Email id" required>
+            <br><br>
+
+            <label> Yuor Hobbies : </label>
+            
+            <input type="checkbox" name="hooby"><label>Sports</label>
+            <input type="checkbox" name="hooby"><label>Music</label>
+            <input type="checkbox" name="hooby"><label>Travel</label>
+            <input type="checkbox" name="hooby"><label>Book Reding</label>
+            <br><br>
+
+            <label> Your Gender </label>
+            <input type="radio" name="Gender"/><label> Male </label>
+            <input type="radio" name="Gender"/><label> Fe-Male </label>
+            <br><br>
+
+            <label> Your Country </label>
+            <select name="Country" id="">
+                <option value="none"> Select </option>
+                <option value="India"> India </option>
+                <option value="Pakistan"> Pakistan </option>
+                <option value="Sari Lanka"> Sari Lanka</option>
+                
+                <option value="Nepal"> Nepal </option>
+            </select>
+            <br><br>
+            <input type="submit">
+
+        </form>
+    </body>
+</html>

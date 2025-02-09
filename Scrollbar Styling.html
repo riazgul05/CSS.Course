@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title> Scrollbar Styling </title>
+        <style>
+         body{font: 19px/25px arial; padding: 10px 0 0 20px;}
+         h1{font-size: 28px; margin-bottom: 35px; text-align: center;}
+            #test{
+                width: 250px;
+                height: 400px;
+                margin: 50px 30px ;
+                border: 1px solid black;
+                overflow: auto;
+            }
+
+            #test::-webkit-scrollbar{
+                width: 20px;
+               
+            }
+
+            #test::-webkit-scrollbar-track{
+                border-radius: 10px;
+                box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+               
+            }
+
+            #test::-webkit-scrollbar-thumb{
+               border-radius: 10px;
+                background: linear-gradient(red,yellow);
+                box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            } 
+
+            #test::-webkit-scrollbar-corner{
+                background:linear-gradient(red,yellow) ;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1> Yahoo baba : CSS Scrollbar Styling </h1>
+        <div id="test">
+            <img src="image/blog-1.jpg" alt="" width="500px">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, ratione minus blanditiis ea voluptas debitis ipsam deleniti quo similique, animi dolore, alias sapiente est. Repellendus commodi, ipsam nesciunt harum consectetur illo doloremque, facere at consequatur sit adipisci, sapiente eligendi! Corrupti ipsum optio soluta ipsa impedit fugiat numquam quidem adipisci, quis nihil et earum, hic in tempora rem laboriosam tempore voluptatem esse, nesciunt placeat officiis eos mollitia iure. Fuga rerum sequi, sint expedita dolor perspiciatis atque delectus earum quibusdam facere, ipsam a? Beatae fuga optio corporis facere nostrum? Iure voluptas molestiae rerum qui harum vero placeat totam sint beatae odit non consequuntur consectetur architecto reprehenderit, itaque delectus, adipisci quidem. Autem eveniet unde deserunt quibusdam officia quisquam voluptas dolore atque sunt velit nulla nemo aperiam consequatur vero necessitatibus explicabo deleniti, quae sed blanditiis molestias asperiores odio aliquam laboriosam labore. Iusto tempore aut porro consequuntur suscipit fugiat excepturi, vel nobis provident eos inventore corrupti, maxime quae pariatur, explicabo dolorum. Dolor sequi porro expedita facere, consequuntur, distinctio similique dolore tenetur ipsa quibusdam, ut maiores omnis nihil beatae impedit ullam explicabo! Dicta pariatur consequatur nihil, dolores consectetur, repellat repellendus dignissimos asperiores quam harum mollitia, quasi reprehenderit fugit dolore quae voluptate! Eaque earum aliquid ducimus nemo.</p>
+        </div>
+    </body>
+</html>

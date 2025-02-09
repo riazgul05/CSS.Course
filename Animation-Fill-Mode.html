@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title> Animation-Fill-Mode </title>
+        <style>
+         body{
+            font-family: Arial, Helvetica;
+         }
+         #box{
+            width: 150px;
+            height: 150px;
+            background: black;
+            margin-left: 15px;
+            animation: sample 2s 3s;
+            animation-fill-mode: both;
+         }
+         @keyframes sample{
+            0%{background-color: black; width: 250px;}
+            50%{background-color: green; width: 350px;}
+            100%{background-color: darkorange; width: 450px;}
+         }
+
+        </style>
+    </head>
+    <body>
+        <h1> Yahoo baba : CSS Animation-Fill-Mode </h1>
+       <div id="box"></div>
+    </body>
+</html>

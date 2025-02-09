@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title> Animation-play-State  </title>
+        <style>
+         body{
+            font-family: Arial, Helvetica;
+         }
+         #box{
+            width: 150px;
+            height: 150px;
+            background: black;
+            margin-left: 15px;
+            animation: sample 2s 1s forwards;
+           
+         }
+         #box:hover{
+            animation-play-state: paused;
+         }
+         @keyframes sample{
+            0%{background-color: black; width: 250px; color: white;}
+            50%{background-color: green; width: 350px;}
+            100%{background-color: darkorange; width: 450px;}
+         }
+
+        </style>
+    </head>
+    <body>
+        <h1> Yahoo baba : CSS Animation-play-State </h1>
+       <div id="box"><h3 style="text-align: center; line-height: 150px;">Paused</h3></div><br><br>
+    </body>
+</html>
